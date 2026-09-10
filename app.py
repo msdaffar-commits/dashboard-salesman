@@ -98,7 +98,7 @@ if selected_toko == "-- Pilih Toko --":
 
 else:
   # Filter data berdasarkan toko yang dipilih
-  toko_ terpilih_df = df_filtered[
+  toko_terpilih_df = df_filtered[
       df_filtered["Outlet_Display"] == selected_toko
   ]
 
